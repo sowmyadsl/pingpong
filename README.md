@@ -6,7 +6,7 @@
 
 ## Description
 
-A **Web application** thats takes a number from user and returns a range of numbers from 1 to the chosen number with few exceptions that numbers divisible by 3 are replaced with **"ping"** ,numbers divisible by 5 are replaced with **"pong"** and numbers divisible by 15 are replaced with **"ping-pong"** using conditional statements and jquery.
+A **Web Application** thats takes a number from user and returns a range of numbers from 1 to the chosen number with few exceptions that numbers divisible by 3 are replaced with **"ping"** ,numbers divisible by 5 are replaced with **"pong"** and numbers divisible by 15 are replaced with **"ping-pong"** using conditional statements and jquery.
 
 ## Specifications
 
@@ -21,7 +21,7 @@ A **Web application** thats takes a number from user and returns a range of numb
 ## Setup/Installation Requirements
 
 * Git clone the directory on to the desktop and open the index.html on a browser.
-* or, Open on Git Hub link:
+* or, Open on Git Hub link: http://sowmyadsl.github.io/pingpong
 * Enter any number to check the results.
 
 ## Known Bugs
@@ -41,7 +41,5 @@ Feel free to contact me at **sowmya.dsl@gmail.com**
 * **jquery**
 
 ### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
 Copyright (c) 2017 Sowmya Dinavahi

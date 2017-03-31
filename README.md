@@ -1,4 +1,4 @@
-# Ping-Pong Game 
+# Ping-Pong Game
 
 #### Epicodus Week 3 Independent Project, 03/31/17
 
@@ -11,12 +11,15 @@ A web application thats takes a number from user and returns a range of numbers 
 ## Specifications
 
 | Behavior                  | Input Example       | Output Example  |
- Our program should handle:  When it receives:    It should return:
-| -------------              |:-------------:       | -----:|
-|User inputs any number     | 2 | [1,2]|
-| User inputs numbers divisible by 3      | 3      |   [1,2,ping] |
-| User inputs numbers divisible by 5 | 5      |   [1,2,ping,4,pong] |
-| User inputs numbers divisible by 15 | 15      |   [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong] |
+|Our program should handle: |When it receives:    |It should return:|
+| --------------------------|---------------------|-----------------|
+| User inputs any number    |         2           |      [1,2]      |
+| User inputs numbers       |
+  divisible by 3            |         3           |   [1,2,ping]    |
+| User inputs numbers
+  divisible by 5            |         5           |[1,2,ping,4,pong]|
+| User inputs numbers
+  divisible by 15           | 15                  |   [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]|
 
 
 ## Setup/Installation Requirements

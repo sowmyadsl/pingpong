@@ -21,7 +21,7 @@ A **Web Application** thats takes a number from user and returns a range of numb
 ## Setup/Installation Requirements
 
 * Git clone the directory on to the desktop and open the index.html on a browser.
-* or, Open on Git Hub link: http://sowmyadsl.github.io/pingpong
+* or, Open on Git Hub link: https://sowmyadsl.github.io/pingpong/
 * Enter any number to check the results.
 
 ## Known Bugs

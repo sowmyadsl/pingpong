@@ -20,15 +20,15 @@ A web application thats takes a number from user and returns a range of numbers 
 * For numbers which are divisible by five, Ping Pong will replace those numbers with the word "Pong"
   * **Example Input:** 10
   * **Example Output:** [0,1,2,ping,4,Pong,Ping,7,8,Ping,Pong].
-* For numbers which are divisible by fifteen, Ping Pong will replace those numbers with the word "PingPong"
+* For numbers which are divisible by three and five, Ping Pong will replace those numbers with the word "PingPong"
   * **Example Input:** 15
   * **Example Output:** [0,1,2,ping,4,5,ping,7,8,ping,pong,11,ping,13,14,PingPong].
 
 ## Setup/Installation Requirements
 
 * git clone the directory on to the desktop and open the index.html on a browser.
-* git hub link.
-* enter any number to check the result.
+* git Hub link.
+* Enter any number to check the results.
 
 
 ## Known Bugs

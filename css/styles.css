@@ -1,0 +1,15 @@
+.jumbotron {
+	height: 50vh;
+	text-align: right;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 250px;
+	background-image: url("../img/pingpong1.jpg");
+	background-size: cover;
+	font-size: 56px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 1000;
+	line-height: 3em;
+	-webkit-text-fill-color: black;
+}

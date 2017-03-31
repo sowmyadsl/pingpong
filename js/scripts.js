@@ -24,6 +24,7 @@ $(document).ready(function() {
 		// displays each elements in the array as a list
 		resultsArray.forEach(function(locArray) {
 			$(".output").append("<li>" + locArray + "</li>");
+    resultsArray = [];
 		});
 	});
 });

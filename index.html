@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 	<script src="js/jquery-3.2.0.js">
 	</script>
 	<script src="js/scripts.js">
@@ -18,21 +19,22 @@
 	</div>
 	<div class="container">
 		<h1>Let's Play!</h1>
-		<h3>Rules:</h3>
+		<h3><b>Rules:</b></h3>
 		<p>Ping Pong with count up to your number from 1 with the following exceptions:</p>
 		<ol>
-			<li>Numbers divisible by 3 become "Ping"</li>
-			<li>Numbers divisible by 5 become "Pong"</li>
-			<li>Numbers divisible by 3 and 5 becomes 'Ping-Pong!'</li>
+			<li>Numbers divisible by 3 become <b>'Ping'</b></li>
+			<li>Numbers divisible by 5 become <b>'Pong'</b></li>
+			<li>Numbers divisible by 3 and 5 becomes <b>'Ping-Pong!'</b></li>
 		</ol>
 		<form id="form-one" name="form-one">
-			<label for="input">Enter your number here:</label> <input class="form-control" id="user-input" type="number"><br>
-			<button class="bg-primary" name="button" type="submit">Ping-Pong!</button>
+			<label for="input">Enter your number here:</label> <input class="form-control" id="user-input" type="number" min="1" placeholder="Enter a number"><br>
+			<button class="button" name="button" type="submit">Ping-Pong!</button>
 		</form>
 	</div>
+  <br>
 	<div class="container">
 		<div class="output">
-			<div style="margin-left: 2em">
+			<div>
 				<span id="list"></span>
 			</div>
 		</div>

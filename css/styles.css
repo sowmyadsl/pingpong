@@ -1,9 +1,9 @@
 .jumbotron {
 	height: 50vh;
 	text-align: right;
-	font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
 	padding: 250px;
-	background-image: url("../img/pingpong1.jpg");
+	background-image: url("../img/pingpong2.jpg");
 	background-size: cover;
 	font-size: 56px;
 	text-transform: uppercase;
@@ -11,5 +11,26 @@
 	letter-spacing: 2px;
 	font-weight: 1000;
 	line-height: 3em;
-	-webkit-text-fill-color: black;
+	-webkit-text-fill-color: white;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Slab', serif;
+    font-size: 23px;
+}
+p,ol,#user-input,#form-one{
+  font-family: 'Josefin Slab', serif;
+  font-size: 23px;
+}
+
+h1,h3{
+  font-family: 'Josefin Slab', serif;
 }

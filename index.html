@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 	<script src="js/jquery-3.2.0.js">
 	</script>
 	<script src="js/scripts.js">
@@ -16,28 +16,40 @@
 		<div class="jumbotron">
 			<h1>Ping-Pong</h1>
 		</div>
-	</div>
+	</div><!-- begin div class -->
 	<div class="container">
-		<h1>Let's Play!</h1>
-		<h3><b>Rules:</b></h3>
-		<p>Ping Pong with count up to your number from 1 with the following exceptions:</p>
-		<ol>
-			<li>Numbers divisible by 3 become <b>'Ping'</b></li>
-			<li>Numbers divisible by 5 become <b>'Pong'</b></li>
-			<li>Numbers divisible by 3 and 5 becomes <b>'Ping-Pong!'</b></li>
-		</ol>
-		<form id="form-one" name="form-one">
-			<label for="input">Enter your number here:</label> <input class="form-control" id="user-input" type="number" min="1" placeholder="Enter a number"><br>
-			<button class="button" name="button" type="submit">Ping-Pong!</button>
-		</form>
-	</div>
-  <br>
-	<div class="container">
-		<div class="output">
-			<div>
-				<span id="list"></span>
-			</div>
-		</div>
+		<!-- begin div row class -->
+		<div class="row">
+			<!-- begin column1 -->
+			<div class="col-md-4">
+				<h1>About Ping Pong</h1>
+				<h3><b>Created by:</b></h3>
+				<p>Sowmya Dinavahi</p>
+				<h3><b>Github Username/URL:</b></h3><a href="https://github.com/sowmyadsl/pingpong">sowmyadsl</a>
+				<h3><b>Level 1 Test for:</b></h3>
+				<p>Arrays&Loops</p><!-- end column1-->
+			</div><!-- start column 2 -->
+			<div class="col-md-8">
+				<h1>Let's Play!</h1>
+				<hr>
+				<h3><b>Rules:</b></h3>
+				<p>Ping Pong with count up to your number from 1 with the following exceptions:</p>
+				<ol>
+					<li>Numbers divisible by 3 become <b>'Ping'</b></li>
+					<li>Numbers divisible by 5 become <b>'Pong'</b></li>
+					<li>Numbers divisible by 3 and 5 becomes <b>'Ping-Pong!'</b></li>
+				</ol><br>
+				<form id="form-one" name="form-one">
+					<label for="input">Enter your number here:</label> <input class="form-control" id="user-input" min="1" placeholder="enter a number" type="number"><br>
+					<button class="button" name="button" type="submit">Ping-Pong!</button>
+				</form><br>
+				<div class="output">
+					<div>
+						<span id="list"></span>
+					</div>
+				</div><!-- end column 2 -->
+			</div><!-- end row 2 -->
+		</div><!-- end div class -->
 	</div>
 </body>
 </html>

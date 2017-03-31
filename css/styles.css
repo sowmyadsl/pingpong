@@ -1,36 +1,38 @@
 .jumbotron {
 	height: 50vh;
 	text-align: right;
-  font-family: 'Josefin Slab', serif;
-	padding: 250px;
+	font-family: 'Josefin Slab', serif;
+	padding: 135px;
 	background-image: url("../img/pingpong2.jpg");
 	background-size: cover;
-	font-size: 56px;
+	font-size: 22px;
 	text-transform: uppercase;
-	text-decoration: none;
 	letter-spacing: 2px;
-	font-weight: 1000;
 	line-height: 3em;
 	-webkit-text-fill-color: white;
-  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
-
-.button{
-  background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Josefin Slab', serif;
-    font-size: 23px;
+.button {
+	background-color: #4CAF50;/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Josefin Slab', serif;
+	font-size: 23px;
 }
-p,ol,#user-input,#form-one{
-  font-family: 'Josefin Slab', serif;
-  font-size: 23px;
+button:hover {
+	background: #CF4647;
 }
-
-h1,h3{
-  font-family: 'Josefin Slab', serif;
+p, ol, li, #user-input, #form-one {
+	font-family: 'Josefin Slab', serif;
+	font-size: 23px;
+}
+h1, h3 {
+	font-family: 'Josefin Slab', serif;
+}
+.container {
+	background-color: #C9C5BA;
 }

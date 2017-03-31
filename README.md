@@ -12,7 +12,7 @@ A web application thats takes a number from user and returns a range of numbers 
 
 | Behavior                  | Input Example       | Output Example  |
 |Our program should handle: |When it receives:    |It should return:|
-| --------------------------|---------------------|-----------------|
+|: --------------------------|:---------------------:|-----------------:|
 | User inputs any number    |         2           |      [1,2]      |
 | User inputs numbers       |
   divisible by 3            |         3           |   [1,2,ping]    |

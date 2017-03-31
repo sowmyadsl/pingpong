@@ -12,17 +12,17 @@ A web application thats takes a number from user and returns a range of numbers 
 
 * The program will run only if a number is entered as input.
 * If a number is entered, Ping Pong will count up to that number in increments of one.
-  **Example Input:** 2
-  **Example Output:** [1,2]
+  * **Example Input:** 2
+  * **Example Output:** [1,2]
 * For numbers that are divisible by three, Ping Pong will replace those numbers with the word "Ping"
-  **Example Input:** 6
-  **Example Output:** [0,1,2,Ping,4,5,Ping].
+  * **Example Input:** 6
+  * **Example Output:** [0,1,2,Ping,4,5,Ping].
 * For numbers which are divisible by five, Ping Pong will replace those numbers with the word "Pong"
-  **Example Input:** 10
-  **Example Output:** [0,1,2,ping,4,Pong,Ping,7,8,Ping,Pong].
+  * **Example Input:** 10
+  * **Example Output:** [0,1,2,ping,4,Pong,Ping,7,8,Ping,Pong].
 * For numbers which are divisible by fifteen, Ping Pong will replace those numbers with the word "PingPong"
-  **Example Input:** 15
-  **Example Output:** [0,1,2,ping,4,5,ping,7,8,ping,pong,11,ping,13,14,PingPong].
+  * **Example Input:** 15
+  * **Example Output:** [0,1,2,ping,4,5,ping,7,8,ping,pong,11,ping,13,14,PingPong].
 
 ## Setup/Installation Requirements
 

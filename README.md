@@ -10,17 +10,19 @@ A web application thats takes a number from user and returns a range of numbers 
 
 ## Specifications
 
-| Behavior                  | Input Example       | Output Example  |
-|Our program should handle: |When it receives:    |It should return:|
-|: --------------------------|:---------------------:|-----------------:|
-| User inputs any number    |         2           |      [1,2]      |
-| User inputs numbers       |
-  divisible by 3            |         3           |   [1,2,ping]    |
-| User inputs numbers
-  divisible by 5            |         5           |[1,2,ping,4,pong]|
-| User inputs numbers
-  divisible by 15           | 15                  |   [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]|
-
+* The program will run only if a number is entered as input.
+* If a number is entered, Ping Pong will count up to that number in increments of one.
+  **Example Input:** 2
+  **Example Output:** [1,2]
+* For numbers that are divisible by three, Ping Pong will replace those numbers with the word "Ping"
+  **Example Input:** 6
+  **Example Output:** [0,1,2,Ping,4,5,Ping].
+* For numbers which are divisible by five, Ping Pong will replace those numbers with the word "Pong"
+  **Example Input:** 10
+  **Example Output:** [0,1,2,ping,4,Pong,Ping,7,8,Ping,Pong].
+* For numbers which are divisible by fifteen, Ping Pong will replace those numbers with the word "PingPong"
+  **Example Input:** 15
+  **Example Output:** [0,1,2,ping,4,5,ping,7,8,ping,pong,11,ping,13,14,PingPong].
 
 ## Setup/Installation Requirements
 
